@@ -177,3 +177,8 @@ function findDifferencesBetweenStrings(str1, str2){
 function IsEmptyJsonObject(obj){
     return JSON.stringify(obj) === '{}'
 }
+
+/* Check if a date object is valid */
+function isValidDate(d) {
+  return d instanceof Date && !isNaN(d);
+}
